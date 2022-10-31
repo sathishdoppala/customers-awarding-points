@@ -1,6 +1,9 @@
 # customers-awarding-points
 
-Sample Request:
+Date Format : 
+
+Sample Request: "MM/dd/yyyy"
+
 {
       "customerTransactions": [
             {
