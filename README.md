@@ -1,7 +1,6 @@
 # customers-awarding-points
 
 Sample Request:
-
 {
       "customerTransactions": [
             {
@@ -12,37 +11,37 @@ Sample Request:
             {
                   "transactionDate": "12/20/2022",
                   "transactionAmount": 70,
-                  "transactionDescription": "Kitty"
+                  "transactionDescription": "Transaction"
             },
             {
                   "transactionDate": "12/21/2022",
                   "transactionAmount": 70,
-                  "transactionDescription": "Kitty"
+                  "transactionDescription": "Transaction"
             },
             {
                   "transactionDate": "05/20/2022",
                   "transactionAmount": 40,
-                  "transactionDescription": "Kitty"
+                  "transactionDescription": "Transaction"
             },
             {
                   "transactionDate": "11/20/2022",
                   "transactionAmount": 60,
-                  "transactionDescription": "Kitty"
+                  "transactionDescription": "Transaction"
             },
             {
                   "transactionDate": "01/20/2022",
                   "transactionAmount": 100,
-                  "transactionDescription": "Kitty"
+                  "transactionDescription": "Transaction"
             },
             {
                   "transactionDate": "01/21/2022",
                   "transactionAmount": 100,
-                  "transactionDescription": "Kitty"
+                  "transactionDescription": "Transaction"
             },
             {
                   "transactionDate": "06/21/2022",
                   "transactionAmount": 101,
-                  "transactionDescription": "Kitty"
+                  "transactionDescription": "Transaction"
             }
       ]
 }
