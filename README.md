@@ -26,7 +26,7 @@ For $120 purchase = (2 X $20)+(1 X 50) = **90 Points**.
 
 #### Example Request:
 
-Example request can be found [HERE](/src/test/java/com/customer/awarding/data/Request.json)
+Example request can be found [/src/test/java/com/customer/awarding/data/Request.json](/src/test/java/com/customer/awarding/data/Request.json)
 
 ```json
 {
@@ -82,7 +82,7 @@ Example request can be found [HERE](/src/test/java/com/customer/awarding/data/Re
 
 #### Example Response:
 
-Example response can be found [HERE](/src/test/java/com/customer/awarding/data/Response.json)
+Example response can be found [/src/test/java/com/customer/awarding/data/Response.json](/src/test/java/com/customer/awarding/data/Response.json)
 
 ```json
 {
