@@ -13,7 +13,7 @@ For $120 purchase = (2 X $20)+(1 X 50) = **90 Points**.
 **Note:-** This is just a basic vanilla version, I have not complicated the logic much.
 
 ***
-#### Postman Collection: (src/test/java/com/customer/awarding/postman/collection/CustomerPoints.postman_collection.json)
+#### Postman Collection: [src/test/java/com/customer/awarding/postman/collection/CustomerPoints.postman_collection.json](src/test/java/com/customer/awarding/postman/collection/CustomerPoints.postman_collection.json)
 
 ***
 **API Links:**
