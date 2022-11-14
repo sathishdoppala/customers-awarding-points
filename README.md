@@ -4,7 +4,7 @@
 
 ### Introduction
 
-This is a basic  JAVA REST API developed using Springboot, which offers a rewards program to its customers. Awarding points will be calculated for each transaction.
+This is a basic  JAVA REST API developed using Springboot. The purpose of the API is to offer rewards program to its customers. Awarding points will be calculated for each transaction.
 
 **Example:** A customer receives 2 points for every dollar spent over $100 in each transaction, plus 1 point for every dollar spent over $50 in each transaction.
 
@@ -14,6 +14,13 @@ For $120 purchase = (2 X $20)+(1 X 50) = **90 Points**.
 
 ***
 #### Postman Collection: [HERE](src/test/java/com/customer/awarding/postman/collection/CustomerPoints.postman_collection.json)
+
+***
+**API Links:**
+
+1. Health Check Endpoint : [GET] http://localhost:8080/awarding/healthcheck
+
+2. getCustomerAwardingPoints : [POST] http://localhost:8080/awarding/points
 
 ***
 
