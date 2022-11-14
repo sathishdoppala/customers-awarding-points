@@ -9,12 +9,17 @@ Sample Request: "MM/dd/yyyy"
             {
                   "transactionDate": "10/20/2022",
                   "transactionAmount": 130,
-                  "transactionDescription": "Kitty"
+                  "transactionDescription": "Transaction6"
+            },
+            {
+                  "transactionDate": "02/20/2022",
+                  "transactionAmount": 130,
+                  "transactionDescription": "Transaction3"
             },
             {
                   "transactionDate": "12/20/2022",
                   "transactionAmount": 70,
-                  "transactionDescription": "Transaction"
+                  "transactionDescription": "Transaction8"
             },
             {
                   "transactionDate": "12/21/2022",
@@ -24,27 +29,27 @@ Sample Request: "MM/dd/yyyy"
             {
                   "transactionDate": "05/20/2022",
                   "transactionAmount": 40,
-                  "transactionDescription": "Transaction"
+                  "transactionDescription": "Transaction4"
             },
             {
                   "transactionDate": "11/20/2022",
                   "transactionAmount": 60,
-                  "transactionDescription": "Transaction"
+                  "transactionDescription": "Transaction7"
             },
             {
                   "transactionDate": "01/20/2022",
                   "transactionAmount": 100,
-                  "transactionDescription": "Transaction"
+                  "transactionDescription": "Transaction1"
             },
             {
                   "transactionDate": "01/21/2022",
                   "transactionAmount": 100,
-                  "transactionDescription": "Transaction"
+                  "transactionDescription": "Transaction2"
             },
             {
                   "transactionDate": "06/21/2022",
                   "transactionAmount": 101,
-                  "transactionDescription": "Transaction"
+                  "transactionDescription": "Transaction5"
             }
       ]
 }
@@ -52,31 +57,50 @@ Sample Request: "MM/dd/yyyy"
 Sample Response:
 
 {
-      "customerAwardingMonthlyPoints": [
+      "threeMonthPeriodAwardingPoints": [
             {
-                  "month": "JANUARY",
-                  "totalPoints": 100
+                  "customerAwardingMonthlyPoints": [
+                        {
+                              "month": "JANUARY",
+                              "totalPoints": 100
+                        },
+                        {
+                              "month": "FEBRUARY",
+                              "totalPoints": 110
+                        },
+                        {
+                              "month": "MAY",
+                              "totalPoints": 0
+                        }
+                  ],
+                  "threeMonthsTotal": 210
             },
             {
-                  "month": "MAY",
-                  "totalPoints": 0
+                  "customerAwardingMonthlyPoints": [
+                        {
+                              "month": "JUNE",
+                              "totalPoints": 52
+                        },
+                        {
+                              "month": "OCTOBER",
+                              "totalPoints": 110
+                        },
+                        {
+                              "month": "NOVEMBER",
+                              "totalPoints": 10
+                        }
+                  ],
+                  "threeMonthsTotal": 172
             },
             {
-                  "month": "JUNE",
-                  "totalPoints": 52
-            },
-            {
-                  "month": "OCTOBER",
-                  "totalPoints": 110
-            },
-            {
-                  "month": "NOVEMBER",
-                  "totalPoints": 10
-            },
-            {
-                  "month": "DECEMBER",
-                  "totalPoints": 40
+                  "customerAwardingMonthlyPoints": [
+                        {
+                              "month": "DECEMBER",
+                              "totalPoints": 40
+                        }
+                  ],
+                  "threeMonthsTotal": 40
             }
       ],
-      "consolidatedPoints": 312
+      "consolidatedPoints": 422
 }
