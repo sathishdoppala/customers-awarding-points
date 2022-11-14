@@ -10,5 +10,5 @@ import java.text.ParseException;
  */
 
 public interface CustomersAwardingPointsService {
-    public CustomerAwardingPoints calculateCustomerAwardingPoints(CustomerTransactions customerTransactions) throws ParseException;
+    public CustomerAwardingPoints calculateCustomerAwardingPoints(CustomerTransactions customerTransactions);
 }

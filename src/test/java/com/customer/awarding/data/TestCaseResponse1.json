@@ -1,0 +1,35 @@
+{
+  "threeMonthPeriodAwardingPoints": [
+    {
+      "customerAwardingMonthlyPoints": [
+        {
+          "month": "JANUARY",
+          "totalPoints": 20
+        },
+        {
+          "month": "MARCH",
+          "totalPoints": 20
+        },
+        {
+          "month": "APRIL",
+          "totalPoints": 10
+        }
+      ],
+      "threeMonthsTotal": 50
+    },
+    {
+      "customerAwardingMonthlyPoints": [
+        {
+          "month": "AUGUST",
+          "totalPoints": 110
+        },
+        {
+          "month": "OCTOBER",
+          "totalPoints": 110
+        }
+      ],
+      "threeMonthsTotal": 220
+    }
+  ],
+  "consolidatedPoints": 270
+}

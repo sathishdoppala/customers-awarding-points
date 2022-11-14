@@ -1,0 +1,34 @@
+{
+  "customerTransactions": [
+    {
+      "transactionDate": "10/20/2022",
+      "transactionAmount": 130,
+      "transactionDescription": "Transaction1"
+    },
+    {
+      "transactionDate": "08/20/2022",
+      "transactionAmount": 130,
+      "transactionDescription": "Transaction2"
+    },
+    {
+      "transactionDate": "03/20/2022",
+      "transactionAmount": 70,
+      "transactionDescription": "Transaction3"
+    },
+    {
+      "transactionDate": "01/20/2022",
+      "transactionAmount": 70,
+      "transactionDescription": "Transaction4"
+    },
+    {
+      "transactionDate": "01/20/2022",
+      "transactionAmount": 40,
+      "transactionDescription": "Transaction5"
+    },
+    {
+      "transactionDate": "04/20/2022",
+      "transactionAmount": 60,
+      "transactionDescription": "Transaction6"
+    }
+  ]
+}

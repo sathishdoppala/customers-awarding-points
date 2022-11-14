@@ -1,0 +1,48 @@
+{
+  "threeMonthPeriodAwardingPoints": [
+    {
+      "customerAwardingMonthlyPoints": [
+        {
+          "month": "JANUARY",
+          "totalPoints": 100
+        },
+        {
+          "month": "FEBRUARY",
+          "totalPoints": 110
+        },
+        {
+          "month": "MAY",
+          "totalPoints": 0
+        }
+      ],
+      "threeMonthsTotal": 210
+    },
+    {
+      "customerAwardingMonthlyPoints": [
+        {
+          "month": "JUNE",
+          "totalPoints": 52
+        },
+        {
+          "month": "OCTOBER",
+          "totalPoints": 110
+        },
+        {
+          "month": "NOVEMBER",
+          "totalPoints": 10
+        }
+      ],
+      "threeMonthsTotal": 172
+    },
+    {
+      "customerAwardingMonthlyPoints": [
+        {
+          "month": "DECEMBER",
+          "totalPoints": 40
+        }
+      ],
+      "threeMonthsTotal": 40
+    }
+  ],
+  "consolidatedPoints": 422
+}

@@ -1,0 +1,126 @@
+{
+	"info": {
+		"_postman_id": "278c9ac1-a819-4846-bc8a-9bfb278e6899",
+		"name": "CustomerPoints",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "2524545"
+	},
+	"item": [
+		{
+			"name": "GetCustomerPoints",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n      \"customerTransactions\": [\n            {\n                  \"transactionDate\": \"10/20/2022\",\n                  \"transactionAmount\": 60,\n                  \"transactionDescription\": \"Transaction\"\n            }\n      ]\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/awarding/points",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"awarding",
+						"points"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GetCustomerPointsMultiMM",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n      \"customerTransactions\": [\n            {\n                  \"transactionDate\": \"10/20/2022\",\n                  \"transactionAmount\": 130,\n                  \"transactionDescription\": \"Transaction6\"\n            },\n            {\n                  \"transactionDate\": \"02/20/2022\",\n                  \"transactionAmount\": 130,\n                  \"transactionDescription\": \"Transaction3\"\n            },\n            {\n                  \"transactionDate\": \"12/20/2022\",\n                  \"transactionAmount\": 70,\n                  \"transactionDescription\": \"Transaction8\"\n            },\n            {\n                  \"transactionDate\": \"12/21/2022\",\n                  \"transactionAmount\": 70,\n                  \"transactionDescription\": \"Transaction\"\n            },\n            {\n                  \"transactionDate\": \"05/20/2022\",\n                  \"transactionAmount\": 40,\n                  \"transactionDescription\": \"Transaction4\"\n            },\n            {\n                  \"transactionDate\": \"11/20/2022\",\n                  \"transactionAmount\": 60,\n                  \"transactionDescription\": \"Transaction7\"\n            },\n            {\n                  \"transactionDate\": \"01/20/2022\",\n                  \"transactionAmount\": 100,\n                  \"transactionDescription\": \"Transaction1\"\n            },\n            {\n                  \"transactionDate\": \"01/21/2022\",\n                  \"transactionAmount\": 100,\n                  \"transactionDescription\": \"Transaction2\"\n            },\n            {\n                  \"transactionDate\": \"06/21/2022\",\n                  \"transactionAmount\": 101,\n                  \"transactionDescription\": \"Transaction5\"\n            }\n      ]\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/awarding/points",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"awarding",
+						"points"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GetCustomerPointsMultiTest1",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n      \"customerTransactions\": [\n            {\n                  \"transactionDate\": \"10/20/2022\",\n                  \"transactionAmount\": 130,\n                  \"transactionDescription\": \"Transaction1\"\n            },\n            {\n                  \"transactionDate\": \"02/20/2022\",\n                  \"transactionAmount\": 130,\n                  \"transactionDescription\": \"Transaction2\"\n            },\n            {\n                  \"transactionDate\": \"12/20/2022\",\n                  \"transactionAmount\": 70,\n                  \"transactionDescription\": \"Transaction3\"\n            },\n            {\n                  \"transactionDate\": \"12/21/2022\",\n                  \"transactionAmount\": 70,\n                  \"transactionDescription\": \"Transaction4\"\n            },\n            {\n                  \"transactionDate\": \"05/20/2022\",\n                  \"transactionAmount\": 40,\n                  \"transactionDescription\": \"Transaction5\"\n            },\n            {\n                  \"transactionDate\": \"11/20/2022\",\n                  \"transactionAmount\": 60,\n                  \"transactionDescription\": \"Transaction6\"\n            }\n      ]\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/awarding/points",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"awarding",
+						"points"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GetCustomerPointsMultiEmpty",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n      \n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/awarding/points",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"awarding",
+						"points"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

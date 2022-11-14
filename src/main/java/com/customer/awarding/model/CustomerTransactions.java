@@ -11,8 +11,10 @@ public class CustomerTransactions {
 
     private List<CustomerTransaction> customerTransactions;
 
-    public List<CustomerTransaction> build(){
-        List<CustomerTransaction> customerTransactions = new ArrayList<CustomerTransaction>();
+    public static CustomerTransactions build() {
+        CustomerTransactions customerTransactions = new CustomerTransactions();
+        List<CustomerTransaction> customerTransactionList = new ArrayList<CustomerTransaction>();
+        customerTransactions.setCustomerTransactions(customerTransactionList);
         return customerTransactions;
     }
 

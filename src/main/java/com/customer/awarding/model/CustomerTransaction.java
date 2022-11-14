@@ -15,6 +15,14 @@ public class CustomerTransaction {
     private int transactionAmount;
     private String transactionDescription;
 
+    public CustomerTransaction(
+            @JsonFormat(shape = JsonFormat.Shape.STRING, pattern = "MM/dd/yyyy") Date transactionDate,
+            int transactionAmount, String transactionDescription) {
+        this.transactionDate = transactionDate;
+        this.transactionAmount = transactionAmount;
+        this.transactionDescription = transactionDescription;
+    }
+
     public Date getTransactionDate() {
         return transactionDate;
     }
