@@ -36,6 +36,8 @@ public class CustomersAwardingPointsServiceImpl implements CustomersAwardingPoin
         int counter = 0;
         int totalPoints = 0;
         int previousMonth = 0;
+        consolidatedPoints = 0;
+        threeMonthCounter = 0;
         this.customerAwardingPoints = CustomerAwardingPoints.build();
 
         try {
